@@ -61,7 +61,7 @@ impl Display for Client {
 
 fn main() {
     // Создаём список (вектор) клиентов
-    let mut clients = vec![
+    let mut clients = [
         Client::new("Александр".into(), "Шувалов".into(), Gender::Male, 24),
         Client::new("Ольга".into(), "Куликова".into(), Gender::Female, 32),
         Client::new("Олег".into(), "Куликов".into(), Gender::Male, 28),
