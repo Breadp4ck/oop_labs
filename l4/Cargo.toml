@@ -1,0 +1,13 @@
+[package]
+name = "l4"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+base64 = "0.21.5"
+gtk4 = "0.7.3"
+hex = "0.4.3"
+qrcodegen = "1.8.0"
+sha3 = "0.10.8"
