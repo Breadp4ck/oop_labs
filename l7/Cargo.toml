@@ -1,0 +1,11 @@
+[package]
+name = "hot-blood"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.24.1"
+egui = "0.24.1"
+egui_extras = { version = "0.24.2", features = ["all_loaders"] }
+env_logger = "0.10.1"
+log = "0.4.20"
